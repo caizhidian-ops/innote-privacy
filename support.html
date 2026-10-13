@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Gathering Storm (暗流涌动)</title>
+<style>
+  :root {
+    --ink: #1c2733;
+    --muted: #5a6b7c;
+    --accent: #155e75;
+    --line: #dbe4ec;
+    --bg: #f7fafc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "SF Pro Text", "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.7;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 20px 64px; }
+  header.app { text-align: center; padding: 36px 0 20px; }
+  header.app h1 { font-size: 26px; margin: 8px 0 4px; }
+  header.app p.sub { color: var(--muted); margin: 0; font-size: 14px; }
+  .lang-switch { display: flex; gap: 8px; justify-content: center; margin: 18px 0 8px; }
+  .lang-switch a {
+    text-decoration: none; font-size: 13px; font-weight: 600;
+    color: var(--accent); border: 1px solid var(--line);
+    border-radius: 999px; padding: 4px 14px; background: #fff;
+  }
+  section.card {
+    background: #fff; border: 1px solid var(--line); border-radius: 14px;
+    padding: 26px 26px 18px; margin-top: 18px;
+  }
+  section.card h2 { font-size: 19px; margin: 0 0 12px; color: var(--accent); }
+  section.card h3 { font-size: 16px; margin: 20px 0 6px; }
+  section.card p, section.card li { font-size: 15px; }
+  ul { padding-left: 22px; }
+  details {
+    border: 1px solid var(--line); border-radius: 10px;
+    padding: 10px 16px; margin: 10px 0; background: #fbfdfe;
+  }
+  details summary { font-weight: 600; font-size: 15px; cursor: pointer; }
+  details p { margin: 10px 0 4px; }
+  a { color: var(--accent); }
+  footer { text-align: center; color: var(--muted); font-size: 13px; margin-top: 34px; }
+  hr.divider { border: none; border-top: 2px dashed var(--line); margin: 40px 0 8px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="app">
+    <h1>Gathering Storm <span style="font-weight:400">·</span> 暗流涌动</h1>
+    <p class="sub">Support / 支持与常见问题</p>
+    <nav class="lang-switch">
+      <a href="#english">English</a>
+      <a href="#chinese">中文</a>
+    </nav>
+  </header>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <section class="card" id="english">
+    <h2>Support</h2>
+    <p>Gathering Storm is a fully offline note-taking app: capture notes like sending messages,
+    merge them into Memos, and file them into Spaces. All data stays on your device —
+    no account, no server, no network.</p>
+
+    <h3>Frequently Asked Questions</h3>
+
+    <details open>
+      <summary>Where is my data stored?</summary>
+      <p>Entirely on your device, in the App's local storage. Nothing is ever uploaded; the App makes no network requests.</p>
+    </details>
+
+    <details>
+      <summary>How do I back up my notes?</summary>
+      <p>Go to <strong>Settings → Export</strong> to export all of your notes as a JSON file. You can then save it to Files, iCloud Drive, or share it however you like.</p>
+    </details>
+
+    <details>
+      <summary>How do I delete everything?</summary>
+      <p>Go to <strong>Settings → Wipe data</strong> to erase all notes at once. Uninstalling the App also permanently removes all of its data.</p>
+    </details>
+
+    <details>
+      <summary>How do I switch the language?</summary>
+      <p>Go to <strong>Settings → Language</strong> and choose between 简体中文 (Chinese) and English.</p>
+    </details>
+
+    <details>
+      <summary>How do I organize my notes?</summary>
+      <p>Long-press to select several notes on the timeline, then tap <strong>New Memo</strong> to merge them into one Memo — the originals stay attached and expandable. File Memos into <strong>Spaces</strong> to keep projects, life and ideas organized. Use <strong>Search</strong> to find any old note by keyword.</p>
+    </details>
+
+    <details>
+      <summary>Does the App have cloud sync, AI, or voice input?</summary>
+      <p>Not in the current version. Version 1 focuses on fast, private, fully local note-taking. Because there is no account and no server, there is also nothing to sync or sign in to.</p>
+    </details>
+
+    <h3>Contact</h3>
+    <p>Questions, feedback or bug reports:
+    <a href="mailto:caizhidian@gmail.com">caizhidian@gmail.com</a></p>
+  </section>
+
+  <hr class="divider">
+
+  <!-- ===================== CHINESE ===================== -->
+  <section class="card" id="chinese">
+    <h2>支持与常见问题</h2>
+    <p>《暗流涌动》是一款完全离线的笔记应用：像发消息一样随手记，划选合并成 Memo，归档进空间。所有数据只存在你的设备上——无账号、无服务器、不联网。</p>
+
+    <h3>常见问题</h3>
+
+    <details open>
+      <summary>我的数据存在哪里？</summary>
+      <p>完全存在你的设备上，位于本应用的本地存储中。任何数据都不会被上传，本应用也不发起任何网络请求。</p>
+    </details>
+
+    <details>
+      <summary>如何备份我的记录？</summary>
+      <p>进入<strong>「设置 → 导出」</strong>，可将全部记录导出为 JSON 文件，然后保存到"文件"、iCloud 云盘或通过任意方式分享。</p>
+    </details>
+
+    <details>
+      <summary>如何删除全部数据？</summary>
+      <p>进入<strong>「设置 → 清空数据」</strong>，可一键抹掉全部记录。卸载本应用也会从设备上永久移除其全部数据。</p>
+    </details>
+
+    <details>
+      <summary>如何切换语言？</summary>
+      <p>进入<strong>「设置 → 语言」</strong>，可在简体中文与 English 之间切换。</p>
+    </details>
+
+    <details>
+      <summary>怎么整理我的记录？</summary>
+      <p>在时间线上长按选中多条记录，点<strong>「新Memo」</strong>即可合并成一份 Memo——原始记录完整保留、随时展开。把 Memo 归入不同的<strong>空间</strong>，项目、生活、灵感各归各位。用<strong>「查找」</strong>可以按关键词搜到任何旧记录。</p>
+    </details>
+
+    <details>
+      <summary>有云同步、AI 或语音输入吗？</summary>
+      <p>当前版本没有。1.0 版专注做快速、私密、完全本地的记录。因为没有账号、没有服务器，自然也没有需要同步或登录的东西。</p>
+    </details>
+
+    <h3>联系我们</h3>
+    <p>问题、反馈或错误报告：<a href="mailto:caizhidian@gmail.com">caizhidian@gmail.com</a></p>
+  </section>
+
+  <footer>
+    Underwater Volcano (Shanghai) Technology Co., Ltd ·
+    <a href="index.html">Privacy Policy / 隐私政策</a>
+  </footer>
+
+</div>
+</body>
+</html>
